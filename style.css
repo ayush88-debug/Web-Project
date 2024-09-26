@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(./assets/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: 50px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    margin-right: 10px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 330px;
+    margin-left: 320px;
+    float: left;
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+.search .srch{
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-left: 30px;
+    float: left;
+    padding: 19.5px;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+
+}
+.search .btn{
+    height: 41.5px;
+    width: 100px;
+    background-color: #ff7200;
+    border: 5px solid #ff7200;
+    color: white;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.srch:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    color: black;
+}
+::placeholder{
+    color: white;
+}
+
+/* Article */
+.article{
+    margin-left: 60px;
+    margin-top: 100px;
+    display: inline-block;
+}
+.article h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.article h1 span{
+    color: #ff7200;
+}
+.article .para{
+    color: white;
+    letter-spacing: 2px;
+    line-height: 27px;
+    font-size: 16px;
+    font-family: arial;
+    margin-top: 10px;
+}
+.article button{
+    height: 45px;
+    width: 160px;
+    border-radius: 12px;
+    margin-top: 20px;
+    background-color: #ff7200;
+    border: none;
+    transition: 0.4s ease-in;
+}
+.article button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.article button:hover{
+    background-color: white;
+}
+/* login */
+.login{
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 890px;
+    padding: 10px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.7)50%,rgba(0,0,0,0.7)50%);
+}
+.login .log{
+    height: 40px;
+    width: 210px;
+    font-size: 1.24rem;
+    font-family: arial;
+    font-weight: bold;
+    color: #ff7200;
+    background-color: white;
+    margin-left: 19px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.login .email,.password{
+    height: 30px;
+    width: 210px;
+    font-size: 1rem;
+    margin-left: 19px;
+    margin-top: 25px;
+    background: transparent;
+    border-bottom: 2px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+}
+.login .ln_btn{
+    height: 40px;
+    width: 210px;
+    font-size: 1.24rem;
+    font-family: arial;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff7200;
+    margin-left: 19px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    transition:all 0.4s ease;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.login a :hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+
+}
+.login .links{
+    font-size: 1.07rem;
+    color: white;
+    font-family: arial;
+    margin-left: 35px;
+    margin-top: 25px;
+
+}
+.login .links a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: #ff7200;
+}
+.login .ln_with{
+    color: white;
+    margin-left: 80px;
+    margin-top: 12px;
+    font-size: 1rem;
+}
+.login .icons{
+    color: white;
+    display: flex;
+    height: 40px;
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 12px;
+    font-size: 1.6rem;
+    margin-left: 23px;
+
+}
+
+
+@media screen and (max-width: 1300px)  {
+    .article h1{
+        font-size: 50px;
+    }
+    .article .para{
+        font-size: 16px;
+        padding-right: 20px;
+    }
+    .login{
+        position: relative;
+        top: 70px;
+        left: 100px;
+    }
+    .menu{
+       display: flex;
+       width: 100%;
+       margin-top: -30px;
+    }
+    .icon{
+       margin-left: 290px;
+       margin-top: 10px;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .search{
+        margin-left: 200px;
+    }
+    .main{
+        height: 1250px;
+    }
+}
+@media screen and (max-width :650px) {
+
+    ul li a{
+    margin-left: 10px;
+    font-size: 8px;
+    }
+
+    .article h1{
+        font-size: 45px;
+    }
+    .article .para{
+        font-size: 14px;
+    }
+    .login{
+        position: relative;
+        top: 70px;
+        left: 180px;
+    }
+    .menu{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+    }
+    .icon{
+       margin-left: 250px;
+       margin-top: 10px;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    .search{
+        margin-left: 130px;
+    }
+
+}
+
+
+@media screen and (max-width :450px) {
+
+    ul li{
+    margin-left: 5px;
+    font-size: 8px;
+    }
+
+    .article h1{
+        font-size: 40px;
+    }
+    .article .para{
+        font-size: 14px;
+    }
+    .login{
+        position: relative;
+        top: 70px;
+        left: 45px;
+    }
+    .menu{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+    }
+    .icon{
+       margin-left: 120px;
+       margin-top: 10px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .search{
+        margin-left: 0px;
+    }
+
+}
